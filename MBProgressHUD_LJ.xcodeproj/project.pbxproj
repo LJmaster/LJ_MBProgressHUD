@@ -18,7 +18,6 @@
 		35E53F241F3D92FD005027D3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E53F231F3D92FD005027D3 /* MBProgressHUD.m */; };
 		35E53F291F3D9608005027D3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35E53F281F3D9608005027D3 /* MBProgressHUD.bundle */; };
 		35E53F871F3DB23B005027D3 /* MBProgressHUD+LJTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E53F861F3DB23B005027D3 /* MBProgressHUD+LJTools.m */; };
-		35E53F8B1F3DB271005027D3 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E53F891F3DB271005027D3 /* HttpController.swift */; };
 		35E53F8C1F3DB271005027D3 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E53F8A1F3DB271005027D3 /* HUD.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		35E53F281F3D9608005027D3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		35E53F851F3DB23B005027D3 /* MBProgressHUD+LJTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LJTools.h"; sourceTree = "<group>"; };
 		35E53F861F3DB23B005027D3 /* MBProgressHUD+LJTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LJTools.m"; sourceTree = "<group>"; };
-		35E53F891F3DB271005027D3 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
 		35E53F8A1F3DB271005027D3 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +167,6 @@
 		35E53F881F3DB266005027D3 /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				35E53F891F3DB271005027D3 /* HttpController.swift */,
 				35E53F8A1F3DB271005027D3 /* HUD.swift */,
 			);
 			path = swift;
@@ -316,7 +313,6 @@
 				35E53EF11F3D92B1005027D3 /* main.m in Sources */,
 				35E53F8C1F3DB271005027D3 /* HUD.swift in Sources */,
 				35E53F241F3D92FD005027D3 /* MBProgressHUD.m in Sources */,
-				35E53F8B1F3DB271005027D3 /* HttpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liujie.MBProgressHUD-LJ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MBProgressHUD_LJ/MBProgressHUD_LJ-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -485,7 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liujie.MBProgressHUD-LJ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MBProgressHUD_LJ/MBProgressHUD_LJ-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -559,6 +555,7 @@
 				35E53F1B1F3D92B1005027D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35E53F1C1F3D92B1005027D3 /* Build configuration list for PBXNativeTarget "MBProgressHUD_LJTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +564,7 @@
 				35E53F1E1F3D92B1005027D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35E53F1F1F3D92B1005027D3 /* Build configuration list for PBXNativeTarget "MBProgressHUD_LJUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +573,7 @@
 				35E53F211F3D92B1005027D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
